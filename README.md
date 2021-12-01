@@ -21,7 +21,7 @@ A Diary app that allows users to keep an environmental diary, both personally an
 ### Install
 ```
 $ git clone http://git.prototyping.id/20160272/Project.git
-$ cd 20160272
+$ cd GreenDiary
 $ npm install 
 ```
 Clone the project and install all packages required for this project
