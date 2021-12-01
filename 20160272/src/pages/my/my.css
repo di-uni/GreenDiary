@@ -1,0 +1,65 @@
+.all {
+    margin-left: 3rem;  /* 48px */
+    margin-top: 1rem;   /* 16px */
+    padding-bottom: 3rem;
+}
+
+.overview{
+    background-color: white;
+    border-radius: 10px;
+    width: 630px;
+    height: 97%;
+    margin-right: 2rem;
+    padding-top: 1rem;
+    text-align: center;
+    /* justify-content: center; */
+}
+
+.overview_zero{
+    transform: translate(-2%, 30%);
+}
+
+.overview_carbon{
+    transform: translate(23%, 50%);
+}
+
+.overview_food{
+    transform: translate(-20%, 30%);
+}
+
+.overview_others{
+    transform: translate(10%, 16%);
+}
+
+.overview_text{
+    margin-top: 5rem;
+    font-size: 18px;
+}
+
+.my_container {
+    display: flex;
+    height: 76.8vh;
+}
+.overview {
+    flex: 0 0 48%; /* flex-basis: 50% */
+}
+
+.post_cards {
+    flex: 0 0 45%; /* flex-basis: 50% */
+    /* padding-left: 1rem; */
+    padding-top: 0;
+    margin-top: 0;
+    box-sizing: border-box; /* make sure 50% is still 50% after you add padding */
+    overflow-y: auto; /* scrollability here */
+}
+
+.post_cards::-webkit-scrollbar{
+    width: 5px;
+    background-color: transparent;
+}
+
+.post_cards::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.9);
+    /* background-color: var(--text-dark); */
+    border-radius: 2px;
+  }
