@@ -1,0 +1,161 @@
+.all {
+    color: var(--text-dark);
+}
+
+.br .space {
+    line-height: 50%;
+ }
+
+.wrapper {
+    width: 92%;
+    margin-left: 3rem; 
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.wrapper .d_title{
+    height: 40px;
+    width: 100%;
+    position: relative;
+}
+
+.wrapper .d_title input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: 0px;
+    font-size: 36px;
+    color: var(--text-dark);
+}
+
+input::placeholder{
+    color: var(--text-lightgray);
+}
+
+.line{
+    border-color: transparent;
+    /* border-color: rgb(204, 204, 204); */
+    border-width: 1px;
+    border-style: solid;
+    border-top-color: var(--primary-green);
+}
+
+.diaryinfo{
+    height: 32px;
+    width: 92%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+
+.date{
+    align-items: center;
+}
+
+.datePicker{
+    transform: translate(-23%, -50%);
+    font-size: 16px;
+    border: none;
+    /* color: var(--text-dark); */
+}
+
+.d_category{
+    font-size: 16px;
+    font-weight: thin;
+    width: 12rem;
+}
+
+.contents_wrapper{
+    margin: 2rem 3rem 2rem 3rem;
+    width: 92%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contents_wrapper .d_contents{
+    height: 400px;
+    /* width: 100%; */
+    width: 70%;
+    margin-right: 3rem;
+}
+
+.contents_wrapper .d_contents textarea{
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: 0px;
+    font-size: 24px;
+    resize: none;
+}
+
+textarea::placeholder{
+    color: var(--text-lightgray);
+}
+
+.contents_wrapper .image_preview{
+    width: auto; 
+    height: auto;
+    max-width: 400px;
+    max-height: 400px;
+    object-fit: contain;
+}
+
+.d_buttons{
+    display: flex;
+    align-items: center;
+    padding: 25px 4% 25px 4%;
+    border: solid;
+    border-width: 1px;
+    border-color: transparent;
+    border-top-color: var(--text-lightgray);
+    /* border-color: rgba(2, 140, 106, 0.9); */
+    /* background-color: rgba(2, 140, 106, 0.9); */
+}
+
+.d_buttons .image_button{
+    transform: translate(0, 5%);
+    flex: 0.7;
+}
+
+.d_buttons .isPublic{
+    flex: 1;
+    display: flex;
+    text-align: center;
+    font-size: 18px;
+    align-items: center;
+}
+
+.public_button{
+    align-items: center;
+    transform: translate(0, 10%);
+    margin-right: 16px;
+}
+
+.d_buttons .space{
+    flex: 5;
+}
+
+.d_buttons .done{
+    width: 160px;
+    height: 40px;
+    background-color: white;
+    color: var(--primary-green);
+    border-width: 2px;
+    letter-spacing: 1px;
+    border-style: solid;
+    outline: 0;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 100px;
+    border-color: var(--primary-green);
+    text-align: center;
+    box-shadow: transparent;
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+} 

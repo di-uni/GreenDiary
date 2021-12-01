@@ -1,0 +1,22 @@
+.all {
+    margin-left: 3rem;  /* 48px */
+    margin-top: 1rem;   /* 16px */
+    padding-bottom: 3rem;
+}
+
+.categoryName {
+    margin-bottom: 24px;
+    background-color: transparent;
+    text-align: left;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    padding: 0;
+}
+
+.post_cards{
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    align-content: space-between;
+}

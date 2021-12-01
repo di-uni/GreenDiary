@@ -1,0 +1,78 @@
+.home{
+    --bg-color: var(--primary-green);
+    background-color: var(--bg-color);
+}
+
+.category{
+    height: 94vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.category::-webkit-scrollbar{
+    width: 5px;
+    background-color: black;
+}
+
+.category::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.9);
+    /* background-color: var(--text-dark); */
+    border-radius: 2px;
+}
+
+.home_space{
+    flex: 1;
+}
+
+.zerowaste{
+    font-size: 90px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+
+.zerowaste:hover span{
+    color: rgba(255, 255, 255, 1);
+    font-size: 130px;
+}
+
+.carbonfootprint{
+    font-size: 90px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+
+.carbonfootprint:hover span{
+    color: rgba(255, 255, 255, 1);
+    font-size: 130px;
+}
+
+.food{
+    font-size: 90px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+
+.food:hover span{
+    color: rgba(255, 255, 255, 1);
+    font-size: 130px;
+}
+
+.food:hover + img{
+    opacity: 1;
+}
+
+.others{
+    font-size: 90px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+
+.others:hover span{
+    color: rgba(255, 255, 255, 1);
+    font-size: 130px;
+}

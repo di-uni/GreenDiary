@@ -1,0 +1,42 @@
+.all {
+    font-weight: 400;
+    color: var(--text-dark);
+}
+
+.post {
+    border-width: 1px;
+    border-style: solid;
+    width: 650px;
+    margin-bottom: 28px;
+    margin-right: 28px;
+    border-radius: 10px;
+    background-color: rgba( 255, 255, 255, 0.5 );
+    border-color: transparent;
+}
+
+.date {
+    margin-top: 25px;  
+    margin-left: 40px;  
+    margin-bottom: 6px;  
+    font-size: 14px;
+}
+
+.title {
+    margin-left: 40px; 
+    font-size: 24px;
+    font-weight: bold;
+    height: fit-content;
+}
+
+.writer {
+    margin-right: 35px;
+    margin-top: 12px;
+    font-size: 14px;
+    text-align: right;
+}
+
+.contents {
+    margin: 1rem 40px 2rem 40px;
+    font-size: 18px;
+    text-align: center;
+}
