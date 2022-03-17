@@ -60,7 +60,8 @@ There are 4 pages : ```Main``` , ```Write Diary``` , ```Shared Diary``` , ```My 
 
 ![shared](./src/captures/shared.png)
  
- When you click specific category, you can find someone else's public diaries.
+ When you click specific category, you can find someone else's public diaries.     
+
 3. ```Write Diary``` 
 
 ![write](./src/captures/write.png)
