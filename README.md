@@ -2,8 +2,8 @@
 
 ## Basic info
 
-- **Your name**: Jiyun Park (박지윤)
-- **Your email**: wldbs0507@kaist.ac.kr
+- **name**: Jiyun Park (박지윤)
+- **email**: wldbs0507@kaist.ac.kr
 
 ## Index of content
 
